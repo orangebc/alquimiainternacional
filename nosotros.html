@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Alquimia Internacional</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="fuentes.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="estilosnosotros.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="estiloheader.css" media="screen" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function() {
+var btn_movil = $('#nav-mobile'),
+menu = $('#menu').find('ul');
+// Al dar click agregar/quitar clases que permiten el despliegue del menú
+btn_movil.on('click', function (e) {
+e.preventDefault();
+var el = $(this);
+el.toggleClass('nav-active');
+menu.toggleClass('open-menu');
+})
+});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<!-- html5.js - IE  9 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}    body {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+}
+	img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+    a:link,a:active,a:visited,a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+</style>
+<!--BARRA DE NAVEGACION -->
+<header>
+<a href="#" id="logo">Logo</a>
+<nav id="menu">
+<a href="#" class="nav-mobile" id="nav-mobile"></a>
+<ul>
+<li><a href="index.html">INICIO</a></li>
+<li><a href="#">NOSOTROS</a></li>
+<li><a href="productos.html">PRODUCTOS</a></li>
+<li><a href="contacto.html">CONTACTO</a></li>
+<a href="#" id="logo2">Logo</a>
+</ul>
+</nav>
+<div class="contamarillo">
+<div class="encbco">ACERCA DE NOSOTROS</div>
+<div class="textoscentrales">Alquimia Internacional S.R.L. nace de la visión de sus fundadores que al percatarse de las carencias percibidas en el mercado local, deciden aprovechar las mismas para ofertar un servicio de calidad con valor agregado, teniendo como centro principal a quienes nos debemos y a quien deseamos hacerle la vida cada vez más simple,<br>
+<span class="bold">Nuestros Clientes.</span></div>
+</div>
+<div class="contprincipal">
+<div class="contcolumnas4">
+<div class="col1B">
+<div class="iconalquimia"><img src="images/iconalquimiayellow1.jpg" width="100%" height="auto"> </div>
+<div class="encalquimia">Nuestra Filosofía</div>
+<div class="textosalquimia">Marcamos la diferencia a través de un servicio de calidad para contribuir con el éxito de nuestros clientes, otorgando soluciones adecuadas a un precio justo y sobre todo a tiempo, logrando mantener así a nuestros clientes satisfechos no solo por la calidad de nuestros productos sino también por nuestra inigualable vocación de servicio.</div>
+</div>
+<div class="col2B">
+<div class="iconalquimia"><img src="images/iconalquimiayellow2.jpg" width="100%" height="auto"> </div>
+<div class="encalquimia">Nuestra Política</div>
+<div class="textosalquimia">Solo tenemos una política,  lograr el beneficio mutuo tanto para nuestros clientes como para nosotros, procurando desarrollar nuestros planes de negocios conforme a los valores y principios  que rigen nuestra filosofía de trabajo, ofreciendo productos y servicios de primera calidad, desarrollados para satisfacer las necesidades en cada sector del mercado</div>
+</div>
+<div class="col3B">
+<div class="iconalquimia"><img src="images/iconalquimiayellow3.jpg" width="100%" height="auto"> </div>
+<div class="encalquimia">Nuestro Compromiso</div>
+<div class="textosalquimia">En Alquimia Internacional trabajamos con un espíritu de servicio único, orientado a la satisfacción total de nuestros clientes a través de la atención continua, antes, durante y después del proceso de venta, gracias al apoyo de nuestros proveedores.</div>
+</div>
+<div class="col4B">
+<div class="iconalquimia"><img src="images/iconalquimiayellow4.jpg" width="100%" height="auto"> </div>
+<div class="encalquimia">Nuestros Valores</div>
+<div class="textosalquimia">Con Respeto, Integridad e incomparable Sentido de Responsabilidad, logramos ser dignos de que nuestros clientes depositen su confianza en nosotros, ya que estamos convencidos de que tales valores son la base de cualquier relación comercial duradera y exitosa.
+</div>
+</div>
+</div>
+</div>
+<div class="contprincipal2"><img src="images/imgnosotros.jpg" width="100%" height="auto"></div>
+<div class="contprincipal3">
+<div class="logovwr"><img src="images/logovwr.jpg" width="100%" height="auto"></div>
+</div>
+<div class="footer">
+<div class="contfooter">
+<div class="contubicacion">
+  <div class="encubicacion">UBICACIÓN</div>
+<div class="iconfooter"><img src="images/iconfooter1.jpg" width="35px" height="35px"></div>
+<div class="domicilio">C/Luis F Thomen No. 63 Ensanche Evaristo Morales,
+Santo Domingo, D.N - Rep. Dominicana</div>
+</div>
+<div class="conttelefono">
+<div class="encubicacion">TELÉFONO</div>
+<div class="iconfooter"><img src="images/iconfooter2.jpg" width="35px" height="35px"></div>
+<div class="telefono">829 - 816 - 6067</div>
+</div>
+<div class="contmail">
+<div class="encubicacion">MAIL</div>
+<div class="iconfooter2"><img src="images/iconfooter3.jpg" width="35px" height="35px"></div>
+<div class="mail">thania.diaz@alquimiainternacional.com</div>
+</div>
+</div>
+</div>
+<div class="contorange">
+<div class="orange"><a href="http://www.orangeboutiquecreativa.com/" target="_blank">SITE DESIGN BY WWW.ORANGEBOUTIQUECREATIVA.COM</a></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1225 @@
+@charset "utf-8";
+/* CSS Document */
+    img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+    .contamarillo {
+	height: 300px;
+	width: 100%;
+	background-color: #FFBA17;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+    .enc {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 2.5em;
+	height: auto;
+	width: 80%;
+	float: left;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	margin-top: 30px;
+}
+    .footer {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 100px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .contfooter {
+	float: left;
+	width: 62%;
+	margin-right: 19%;
+	margin-left: 19%;
+	height: auto;
+}
+    .contubicacion {
+	height: 55px;
+	width: 42%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 1.5%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .conttelefono {
+	height: 55px;
+	width: 22.5%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .contmail {
+	height: 55px;
+	width: 28%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	padding: 0px;
+}
+    .encubicacion {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 12%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 65%;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .mail {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .iconfooter {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 0.9em;
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+    .iconfooter2 {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+    .contorange {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+    .orange {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 0.9em;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	text-align: center;
+}
+    .contformulario {
+	height: auto;
+	width: 94%;
+	margin-right: 3%;
+	margin-left: 3%;
+	margin-top: 20px;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+    .logovwr {
+	width: 10%;
+	margin-right: 45%;
+	margin-left: 45%;
+}
+    .contprincipal {
+	height: auto;
+	width: 100%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+    .textoscentrales2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 80%;
+	float: left;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	margin-top: 20px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1920
+*/
+@media only screen and (max-width: 1920px) {
+    .footer {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 40px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .contfooter {
+	float: left;
+	width: 62%;
+	margin-right: 19%;
+	margin-left: 19%;
+	height: auto;
+}
+    .contubicacion {
+	height: 55px;
+	width: 42%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 1.5%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .conttelefono {
+	height: 55px;
+	width: 22.5%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .contmail {
+	height: 55px;
+	width: 28%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	padding: 0px;
+}
+    .encubicacion {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 12%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 65%;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .mail {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .iconfooter {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 0.9em;
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+}
+    .iconfooter2 {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+    .contorange {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+    .orange {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 0.9em;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	text-align: center;
+}	
+    .textoscentrales2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 80%;
+	float: left;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	margin-top: 20px;
+
+}	
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1680
+*/
+@media only screen and (max-width: 1680px) {
+    .contfooter {
+	float: left;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	height: auto;
+}
+    .contfooter {
+	float: left;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	height: auto;
+}	
+    .logovwr {
+	width: 15%;
+	margin-right: 45%;
+	margin-left: 45%;
+}
+    .textoscentrales2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 80%;
+	float: left;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	margin-top: 20px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1440
+*/
+@media only screen and (max-width: 1440px) {
+    .contfooter {
+	float: left;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	height: auto;
+}
+    .contubicacion {
+	height: 55px;
+	width: 42%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 1.5%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .conttelefono {
+	height: 55px;
+	width: 22.9%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 25px;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .contmail {
+	height: 55px;
+	width: 28%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	padding: 0px;
+}
+    .encubicacion {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 12%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 65%;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .mail {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .iconfooter {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+
+	margin-left: 50px;
+}
+    .iconfooter2 {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+    .contorange {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+    .orange {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 0.9em;
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	text-align: center;
+}
+    .logovwr {
+	width: 20%;
+	margin-right: 40%;
+	margin-left: 40%;
+}
+}	
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1366
+*/
+@media only screen and (max-width: 1366px) {
+   .contfooter {
+	float: left;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: auto;
+}
+    .contubicacion {
+	height: 55px;
+	width: 42%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 1.5%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .conttelefono {
+	height: 55px;
+	width: 22.5%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .contmail {
+	height: 55px;
+	width: 28%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 30px;
+	padding: 0px;
+}
+    .encubicacion {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 12%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 65%;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .mail {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 45%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .iconfooter {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+
+	margin-left: 50px;
+}
+    .iconfooter2 {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}	
+    .logovwr {
+	width: 20%;
+	margin-right: 40%;
+	margin-left: 40%;
+}
+    .textoscentrales2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.5em;
+	height: auto;
+	width: 80%;
+	float: left;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	margin-top: 20px;
+}
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1280
+*/
+@media only screen and (max-width: 1280px) {
+     .logovwr {
+	width: 20%;
+	margin-right: 40%;
+	margin-left: 40%;
+}
+}	
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 1024
+*/
+@media only screen and (max-width: 1024px) {
+   .contfooter {
+	float: left;
+	width: 100%;
+	margin-right:0%;
+	margin-left: 0%;
+	height: auto;
+}
+    .footer {
+	height: auto;
+	width: 90%;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 5%;
+	margin-bottom: 0px;
+	margin-left: 5%;
+}
+    .contubicacion {
+	height: 100px;
+	width: 40%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 4%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .conttelefono {
+	height: 100px;
+	width: 22%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .contmail {
+	height: 55px;
+	width: 15%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	padding: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 95%;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 60%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .mail {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 60%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .iconfooter2 {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+
+    .contprincipal2 {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .logovwr {
+	width: 20%;
+	margin-right: 40%;
+	margin-left: 40%;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 768
+*/
+@media only screen and (max-width: 768px) {
+   .contfooter {
+	float: left;
+	width: 100%;
+	margin-right:0%;
+	margin-left: 0%;
+	height: auto;
+}
+    .footer {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .contubicacion {
+	height: 100px;
+	width: 40%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 4%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .conttelefono {
+	height: 100px;
+	width: 22%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .contmail {
+	height: 55px;
+	width: 15%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	padding: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 95%;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 60%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .mail {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 60%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .iconfooter2 {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+    .contprincipal2 {
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+    .logovwr {
+	width: 30%;
+	margin-right: 35%;
+	margin-left: 35%;
+}
+    .textoscentrales2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 90%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 20px;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 680
+*/
+@media only screen and (max-width: 680px) {
+    .contfooter {
+	float: left;
+	width: 100%;
+	margin-right:0%;
+	margin-left: 0%;
+	height: auto;
+}
+    .contubicacion {
+	height: 100px;
+	width: 90%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 5%;
+	margin-bottom: 15px;
+	margin-left: 5%;
+	border-right-style: none;
+	padding: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+    .conttelefono {
+	height: 100px;
+	width: 48%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 2%;
+	margin-bottom: 15px;
+	margin-left: 5%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .contmail {
+	height: 55px;
+	width: 40%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	padding: 0px;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 95%;
+	float: left;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 80%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .mail {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 80%;
+	float: left;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+    .iconfooter2 {
+	height: 35px;
+	width: 35px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}	
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 640
+*/
+@media only screen and (max-width: 480px) {
+    .logovwr {
+	width: 40%;
+	margin-right: 30%;
+	margin-left: 30%;
+	margin-top: 20px;
+}
+    .conttelefono {
+	height: 100px;
+	width: 40%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 2%;
+	margin-bottom: 15px;
+	margin-left: 5%;
+	border-right-width: thin;
+	border-right-style: solid;
+	border-right-color: #999;
+	padding: 0px;
+}
+    .textoscentrales2 {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1em;
+	height: auto;
+	width: 90%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 10px;
+}
+}	
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*
+    INICIA MEDIA QUERY 320
+*/
+@media only screen and (max-width: 320px) {
+    .logovwr {
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 20px;
+}	
+    .contubicacion {
+	height: 150px;
+	width: 90%;
+	float: left;
+	margin-top: 0px;
+	margin-right: 5%;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	border-right-style: none;
+	padding: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+    .conttelefono {
+	height: 130px;
+	width: 90%;
+	float: left;
+	margin-top: 0px;
+	margin-right: 5%;
+	margin-bottom: 15px;
+	margin-left: 5%;
+	border-right-style: none;
+	padding: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+    .contmail {
+	height: 130px;
+	width: 90%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 5%;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	padding: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+    .encubicacion {
+	font-family: "roboto_condensedbold", sans-serif;
+	color: #999999;
+	font-size: 1.2em;
+	height: auto;
+	width: 90%;
+	float: left;
+	margin-top: 15px;
+	margin-right: 5%;
+	margin-bottom: 0px;
+	margin-left: 5%;
+	padding: 0px;
+	text-align: center;
+}
+    .domicilio {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: center;
+}
+    .telefono {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 80%;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 10%;
+	margin-bottom: 0px;
+	margin-left: 10%;
+	text-align: center;
+}
+    .mail {
+	font-family: "roboto_condensedlight", sans-serif;
+	color: #999999;
+	font-size: 1.0em;
+	height: auto;
+	width: 80%;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 10%;
+	margin-bottom: 0px;
+	margin-left: 10%;
+	text-align: center;
+}
+    .iconfooter {
+	height: 50px;
+	width: 40px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	margin-left: 40%;
+}
+    .iconfooter2 {
+	height: 50px;
+	width: 40px;
+	float: left;
+	padding: 0px;
+	margin-top: 7.5px;
+	margin-right: 0%;
+	margin-bottom: 0px;
+	margin-left: 42%;
+}
+}

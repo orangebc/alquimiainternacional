@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Alquimia Internacional</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="fuentes.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="estiloshome.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="estiloheader.css" media="screen" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function() {
+var btn_movil = $('#nav-mobile'),
+menu = $('#menu').find('ul');
+// Al dar click agregar/quitar clases que permiten el despliegue del menú
+btn_movil.on('click', function (e) {
+e.preventDefault();
+var el = $(this);
+el.toggleClass('nav-active');
+menu.toggleClass('open-menu');
+})
+});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/stylesslider.css" type="text/css" media="screen" />
+<script src="js/jquery.flexslider-min.js"></script>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<!-- html5.js - IE  9 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- funcion para conectar el FlexSlider -->
+<script type="text/javascript">
+$(window).load(function() {
+$('.flexslider').flexslider();
+});
+</script>
+	
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<!-- html5.js - IE  9 -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<meta charset="utf-8">
+</head>
+<style type="text/css">
+    *{
+	margin: 0;
+	padding: 0;
+	list-style-image: none;
+	list-style-type: none;
+}    body {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	list-style-image: none;
+	list-style-type: none;
+}
+	img {
+	width: 100%;
+	max-width: auto;
+	margin: 0px;
+	padding: 0px;
+}
+    a:link,a:active,a:visited,a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+</style>
+<!--BARRA DE NAVEGACION -->
+<header>
+<a href="#" id="logo">Logo</a>
+<nav id="menu">
+<a href="#" class="nav-mobile" id="nav-mobile"></a>
+<ul>
+<li><a href="index.html">INICIO</a></li>
+<li><a href="nosotros.html">NOSOTROS</a></li>
+<li><a href="productos.html">PRODUCTOS</a></li>
+<li><a href="contacto.html">CONTACTO</a></li>
+<a href="#" id="logo2">Logo</a>
+</ul>
+</nav>
+<!--SLIDE DE IMAGENES -->
+<div class="contsilde">
+<section id="contenedor">
+<div class="flexslider">
+<ul class="slides">
+<li><img src="images/SLIDE1.jpg" /></li>
+<li><img src="images/SLIDE2.jpg"/></li>
+<li><img src="images/SLIDE3.jpg"/></li>
+<li><img src="images/SLIDE4.jpg"/></li>
+<li><img src="images/SLIDE5.jpg"/></li>
+<li><img src="images/SLIDE6.jpg"/></li>
+</ul>
+</div>
+</section>
+</div>
+<div class="contprincipal">
+<div class="enc">PRODUCTOS</div>
+<div class="textoscentrales">Manejamos una amplia gama de productos para diversas industrias como la de Bebidas y Alimentos, Farmaceútica, Universidades y Gobierno, Energética, Minera, Clínica entre otras. Lo más importante para nosotros es ofrecer a nuestros clientes productos de máxima calidad y que cumplan con las normas vigentes.</div>
+<div class="contcolumnas">
+<a href="productos.html#ancla1"><div class="col1">
+<div class="enccolumnas2">Material de Laboratorio</div>
+<div class="imgcol"><img src="images/imgcol1.jpg" width="100%" height="auto"></div>
+</div></a>
+<a href="productos.html#ancla2"><div class="col2">
+<div class="enccolumnas">Equipos</div>
+<div class="imgcol"><img src="images/imgcol2.jpg" width="100%" height="auto"></div>
+</div></a>
+<a href="productos.html#ancla3"><div class="col3">
+<div class="enccolumnas">Seguridad</div>
+<div class="imgcol"><img src="images/imgcol3.jpg" width="100%" height="auto"></div>
+</div></a>
+<a href="productos.html#ancla4"><div class="col4">
+<div class="enccolumnas">Mobiliario</div>
+<div class="imgcol"><img src="images/imgcol4.jpg" width="100%" height="auto"></div>
+</div></a>
+<a href="productos.html#ancla5"><div class="col5">
+<div class="enccolumnas3">Servicio Técnico</div>
+<div class="imgcol"><img src="images/imgcol5.jpg" width="100%" height="auto"></div>
+</div></a>
+</div>
+</div>
+<div class="contamarillo">
+<div class="enctipo"><img src="images/tipografiaalquimia.png" width="100%" height="auto"></div>
+<div class="contcolumnas4">
+<a href="nosotros.html"><div class="col1B">
+<div class="iconalquimia"><img src="images/iconalquimia1.png" width="100%" height="auto"> </div>
+<div class="encalquimia">Nuestra Filosofía</div>
+<div class="textosalquimia">Marcamos la diferencia a través de un servicio de calidad para contribuir con el éxito de nuestros clientes
+<br><strong>Leer más</strong></div>
+</div></a>
+<a href="nosotros.html"><div class="col2B">
+<div class="iconalquimia"><img src="images/iconalquimia2.png" width="100%" height="auto"> </div>
+<div class="encalquimia">Nuestra Política</div>
+<div class="textosalquimia">Solo tenemos una política,  lograr el beneficio mutuo tanto para nuestros clientes como para nosotros,
+<br><strong>Leer más</strong></div>
+</div></a>
+<a href="nosotros.html"><div class="col3B">
+<div class="iconalquimia"><img src="images/iconalquimia3.png" width="100%" height="auto"> </div>
+<div class="encalquimia">Nuestro Compromiso</div>
+<div class="textosalquimia">En Alquimia Internacional trabajamos con un espíritu de servicio único, orientado a la satisfacción total
+<br><strong>Leer más</strong></div>
+</div></a>
+<a href="nosotros.html"><div class="col4B">
+<div class="iconalquimia"><img src="images/iconalquimia4.png" width="100%" height="auto"> </div>
+<div class="encalquimia">Nuestros Valores</div>
+<div class="textosalquimia">Con Respeto, Integridad e incomparable Sentido de Responsabilidad, logramos ser dignos 
+<br><strong>Leer más</strong></div>
+</div></a>
+</div>
+</div>
+<div class="contprincipal">
+<div class="enc">NUESTROS CLIENTES</div>
+<div class="contcolumnas4C">
+<div class="col1C">
+<div class="encclientes">Alimentos y Bebidas</div>
+<div class="imgclientes"><img src="images/imgcol1C.jpg" width="100%" height="auto"></div>
+</div>
+<div class="col2C">
+<div class="encclientes">Farmaceútica</div>
+<div class="imgclientes"><img src="images/imgcol2C.jpg" width="100%" height="auto"></div>
+</div>
+<div class="col3C">
+<div class="encclientes">Textil</div>
+<div class="imgclientes"><img src="images/imgcol3C.jpg" width="100%" height="auto"></div>
+</div>
+<div class="col4C">
+<div class="encclientes">Pinturas</div>
+<div class="imgclientes"><img src="images/imgcol4C.jpg" width="100%" height="auto"></div>
+</div>
+<div class="col1C">
+<div class="encclientes">Gobierno</div>
+<div class="imgclientes"><img src="images/imgcol5C.jpg" width="100%" height="auto"></div>
+</div>
+<div class="col2C">
+<div class="encclientes">Universidades</div>
+<div class="imgclientes"><img src="images/imgcol6C.jpg" width="100%" height="auto"></div>
+</div>
+<div class="col3C">
+<div class="encclientes">Minería</div>
+<div class="imgclientes"><img src="images/imgcol7C.jpg" width="100%" height="auto"></div>
+</div>
+<div class="col4C">
+<div class="encclientes">Generadoras</div>
+<div class="imgclientes"><img src="images/imgcol8C.jpg" width="100%" height="auto"></div>
+</div>
+</div>
+</div>
+<div class="contprincipal">
+<div class="logovwr"><img src="images/logovwr.jpg" width="100%" height="auto"></div>
+</div>
+<div class="footer">
+<div class="contfooter">
+<div class="contubicacion">
+  <div class="encubicacion">UBICACIÓN</div>
+<div class="iconfooter"><img src="images/iconfooter1.jpg" width="35px" height="35px"></div>
+<div class="domicilio">C/Luis F Thomen No. 63 Ensanche Evaristo Morales,
+Santo Domingo, D.N - Rep. Dominicana</div>
+</div>
+<div class="conttelefono">
+<div class="encubicacion">TELÉFONO</div>
+<div class="iconfooter"><img src="images/iconfooter2.jpg" width="35px" height="35px"></div>
+<div class="telefono">829 - 816 - 6067</div>
+</div>
+<div class="contmail">
+<div class="encubicacion">MAIL</div>
+<div class="iconfooter2"><img src="images/iconfooter3.jpg" width="35px" height="35px"></div>
+<div class="mail">thania.diaz@alquimiainternacional.com</div>
+</div>
+</div>
+</div>
+<div class="contorange">
+  <div class="orange"><a href="http://www.orangeboutiquecreativa.com/" target="_blank">SITE DESIGN BY WWW.ORANGEBOUTIQUECREATIVA.COM</a></div>
+</div>
+
+</body>
+</html>
